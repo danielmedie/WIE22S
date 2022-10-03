@@ -1,0 +1,103 @@
+/* body { */
+    /* background-color: green; */
+/* } */
+
+
+/* {
+    color: aquamarine;
+    border: 2px solid red;
+    padding: 30px;
+    margin: 50px;
+} */
+
+
+/* table, th, td {
+    border: 1px solid rgb(252, 250, 250); */
+    /* border-collapse: collapse; */
+    /* border-color: rgb(149, 236, 108); */
+    /* padding: 20px;  */
+/* } */
+/* table {
+    width: 100%;
+    border-spacing: 20px; */
+    /* height: 70%; */
+/* } */
+/* th, td { */
+    /* border-radius: 10px; */
+    /* background-color: rgb(151, 243, 142); */
+    /* text-align: center; */
+/* } */
+
+/* -------------------------------------------------varanan färglagd------------------------------------------------------ */
+#Contact {
+   width: 50%;
+}
+#Company {
+  width: 25%;
+}
+#Country {
+  width: 25%;
+} 
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #D6EEEE;
+  } */ 
+
+  /* '''---------------------------------olika färger-----------------------------------------------------------------------------' */
+        
+  /* table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 20px;
+  }
+  table {
+    width: 100%;
+  }
+  #colSpan1 {
+    background-color: yellow;
+  }
+  #colSpan2 {
+    background-color: rgb(59, 59, 47);
+}
+#colSpan3 {
+    background-color: lightblue; */
+/* } */
+
+/* ul {
+    list-style: square;
+} */
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #94a8fd;
+    width: 100%;
+  }
+  
+  li {
+    width: 25%;
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #c7e9f3;
+  }
