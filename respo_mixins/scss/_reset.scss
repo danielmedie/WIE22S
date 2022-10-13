@@ -1,0 +1,23 @@
+@use "mixins" as m;
+
+body{
+    height: 100vh;
+    background-color: rgb(95, 169, 144);
+    @include m.tablet {
+        background-color: #b9c06e;
+    }
+    @include m.desktop {
+        background-color: rgb(52, 97, 52);
+        height: 50px;
+    }
+    .container{
+        background-color: #f5ff85;
+        @include m.tablet {
+            background-color: #f5ff85;
+        }
+        @include m.desktop {
+            background-color: rgb(95, 248, 95);
+            height: 50px;
+        }
+    }
+}

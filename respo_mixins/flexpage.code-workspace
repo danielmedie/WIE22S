@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../flexpage"
+		},
+		{
+			"path": "../../WIE22S"
+		},
+		{
+			"path": "../../portfolio daniel"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "portfolio daniel"
+	}
+}
